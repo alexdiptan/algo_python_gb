@@ -8,35 +8,3 @@ k = (y_one - y_two) / (x_one - x_two)
 b = y_one - (k * x_one)
 
 print(f'y = {k} * x + {b} ')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#k = (y_one - y_two) / (x_one - x_two)
-
-
-
-
-
-
-
-
-
