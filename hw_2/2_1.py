@@ -1,9 +1,6 @@
-# first_number = int(input('Введите первое число: '))
-# second_number = int(input('Введите второе число: '))
-# sign = input('Введите тип операции над числами (0, +, -, *, /): ')
 
-expression = '5 + 2'  # input('Введите выражение для вычисления: ')
-list_expression = list(expression)
+expression = input('Введите выражение для вычисления: ')
+list_expression = expression.split()
 
 while list_expression[1] != 0:
     expression = input('Введите выражение для вычисления: ')
