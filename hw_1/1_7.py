@@ -6,7 +6,9 @@ a = int(input('Enter first triangle side number: '))
 b = int(input('Enter second triangle side number: '))
 c = int(input('Enter third triangle side number: '))
 
+# Формирую список из введенных данных
 triangle_sides = [a, b, c]
+# Сортирую список по возрастанию.
 triangle_sides.sort()
 
 if (triangle_sides[0] + triangle_sides[1]) > triangle_sides[2]:

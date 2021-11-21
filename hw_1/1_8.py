@@ -1,10 +1,10 @@
 # 8. Определить, является ли год, который ввел пользователем, високосным или невисокосным.
-year = int(input('Enter a year: '))
+year = int(input('Введите год: '))
 
 if year % 400 == 0:
-    print(f'{year} високосный 1')
+    print(f'{year} високосный')
 elif year % 100 == 0:
-    print(f'{year} не високосный 2')
+    print(f'{year} не високосный')
 elif year % 4 == 0:
     print(f'{year} високосный')
 else:
