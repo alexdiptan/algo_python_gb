@@ -20,3 +20,25 @@ def find_substr(s):
 if __name__ == '__main__':
     start_string = 'santa'
     print(f"Количество подстрок в строке '{start_string}' = {len(find_substr(start_string))}")
+
+"""
+output:
+sant
+san
+sa
+s
+anta
+ant
+an
+a
+nta
+nt
+n
+ta
+t
+a
+Количество подстрок в строке 'santa' = 13
+
+Process finished with exit code 0
+
+"""
