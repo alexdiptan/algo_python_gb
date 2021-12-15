@@ -18,5 +18,5 @@ def find_substr(s):
 
 
 if __name__ == '__main__':
-    s = 'santa'
-    print(f"Количество различных подстрок в строке '{s}' равно {len(find_substr(s))}")
+    start_string = 'santa'
+    print(f"Количество подстрок в строке '{start_string}' = {len(find_substr(start_string))}")
